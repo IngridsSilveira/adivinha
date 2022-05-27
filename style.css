@@ -1,0 +1,49 @@
+body {
+    background: url('paisagem.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 98vw;
+    height: 96vh;
+    display: flex;
+}
+h1 {
+    font-weight: bold;
+    font-style: italic;
+}
+.paragrafo {
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.795);
+}
+.container {
+    margin: auto;
+}
+.form {
+    display: flex;
+}
+.campoPalpite {
+    width: 150px;
+    height: 20px;
+    margin-left: 1px;
+    margin-right: 10px;
+}
+.envioPalpite, button {
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(167, 41, 41);
+    color: rgb(248, 246, 246);
+    font-weight: bold;
+    cursor: pointer;
+}
+.ultimoResultado {
+    border-radius: 10px;
+    width: 230px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
