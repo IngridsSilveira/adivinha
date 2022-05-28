@@ -12,7 +12,6 @@ var contagemPalpites = 1;
 var botaoReinicio;
 campoPalpite.focus();
 
-var botao;
 // função para conferir o palpite
 function conferirPalpite(){    
     var palpiteUsuario = Number(campoPalpite.value);

@@ -34,7 +34,7 @@ h1 {
     height: 30px;
     border-radius: 5px;
     border: none;
-    background-color: rgb(167, 41, 41);
+    background-color: rgb(70, 41, 167);
     color: rgb(248, 246, 246);
     font-weight: bold;
     cursor: pointer;
@@ -46,4 +46,19 @@ h1 {
     color: white;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 14px;
+}
+footer a:hover {
+    color: rgb(0, 166, 255);
 }
